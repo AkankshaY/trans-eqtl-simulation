@@ -1,11 +1,8 @@
 #!/bin/bash
-#SBATCH -p medium
-#SBATCH --qos=short
+#SBATCH -p hh
 #SBATCH -t 0-2:00:00
 #SBATCH -n 8
 #SBATCH -N 1
-#SBATCH -A all
-#SBATCH -C scratch
 #SBATCH -J _JOB_NAME
 #SBATCH -o _JOB_NAME.out
 #SBATCH -e _JOB_NAME.err
